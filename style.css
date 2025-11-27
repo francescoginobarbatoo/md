@@ -1,7 +1,7 @@
 body {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.631);
-    background-color: bisque
+    background-color: rgb(37, 0, 32)
 }
 
 #page {
@@ -13,15 +13,15 @@ body {
 }
 
 #about-me {
-    background-color: hsla(37, 78%, 62%, 0.805)
+    background-color: hsla(239, 37%, 37%, 0.805)
 }
 
 #work {
-    background-color: hsla(42, 81%, 67%, 0.818);
+    background-color: hsla(239, 48%, 44%, 0.818);
 }
 
 #contatti {
-    background-color: hsl(41, 78%, 61%)
+    background-color: hsl(249, 89%, 18%)
 }
 
 .section {
@@ -48,14 +48,16 @@ body {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .gallery {
+   html{ 
+    font-size: 22px;
+}
+    .gallery{ 
         flex-direction: row;
         justify-content: space-between;
     }
-
-    .gallery figure {
-        width: 30%;
-    }
+    .gallery figure{
+        width: 30%;
+    }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
